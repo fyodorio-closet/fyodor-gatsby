@@ -12,9 +12,9 @@ Having sorted the tooling question out I switched to frameworks. This week I've 
 
 At the same time, my favourite framework is still AngularJS. For me it's the simplest and handies of all including its younger brother, Angular (though I didn't dive deep enough to it). It was created when developer life was easier and happier and I like "warm tube sound" of it. 
 
-So I decided to prioritize my work on the modern AngularJS starter and finish it, and tighten knowledge of the framework itself and unit testing in it at the same time.
+So I decided to prioritize my work on [the modern AngularJS starter](https://github.com/loenko/ng18-starter) and finish it, and tighten knowledge of the framework itself and unit testing in it at the same time.
 
-Therefore this week I'm going to dedicate most of my spare time to AngularJS coding including migrating one of my pet projects (son's school web project on healing plants) from React to AngularJS. 
+Therefore this week I'm going to dedicate most of my spare time to AngularJS coding including migrating one of my pet projects (son's school [web project on healing plants](https://loenko.github.io/healing-plants/)) from React to AngularJS. 
 
 The last week I made some more choices on tooling: Webpack over Gulp (gulp is pain), Gatsby over Wordpress (I didn't expect Gatsby will be so pleasant experience), Functional programming over Object-Oriented programming (the first one is so slick, pure and beautiful). And we iterated on designs of pet projects with my wife - it's the nicest part of my software development activities. 
 
