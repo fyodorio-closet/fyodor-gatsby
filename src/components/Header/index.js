@@ -1,21 +1,11 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
+import './index.css';
 
 const Header = () => (
-  <div
-    style={{
-      background: '#078072',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
+  <div className="header">
+    <div className="header-content">
+      <h1 className="header-title">
         <Link
           to="/"
           style={{
@@ -27,6 +17,7 @@ const Header = () => (
         </Link>
       </h1>
     </div>
+    
   </div>
 )
 

@@ -1,0 +1,15 @@
+.header {
+    background: #078072;
+    margin-bottom: 1.45rem;
+}
+.header-content {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 1.45rem 1.0875rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-title {
+    margin: 0;
+}

@@ -1,13 +1,6 @@
-# gatsby-starter-default
-The default Gatsby starter
+# my-days-of-code
+## `gatsby-starter-default`-based personal site and blog
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+I use Gatsby, React and Markdown here and deploy the results at gh-pages connected to [my custom domain](http://loenko.ru/). 
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+You can get all the related information at [the site itself](http://loenko.ru/).
