@@ -1,5 +1,10 @@
+:root {
+    --primary-color: #078072;
+    /* --secondary-color: #862F04; */
+    --secondary-color: #d0fdeb;
+}
 .header {
-    background: #078072;
+    background: var(--primary-color);
     margin-bottom: 1.45rem;
 }
 .header-content {
@@ -9,7 +14,56 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
 }
-.header-title {
+.header-title,.menu-home,.menu-about,.menu-code,.menu-connect {
     margin: 0;
+}
+.header-title>a,.menu-home>a,.menu-about>a,.menu-code>a {
+    color: white;
+}
+.menu-home:hover>a,.menu-about:hover>a,.menu-code:hover>a {
+    /* text-decoration: underline; */
+    color: var(--secondary-color);
+}
+.menu-about,.menu-code,.menu-connect {
+    margin-left: 0.5rem;
+}
+.menu-home {
+    margin-left: auto;
+    order: 2;
+}
+.menu-about {
+    order: 3;
+}
+.menu-code {
+    order: 4;
+}
+.menu-connect {
+    order: 5;
+    border-radius: 8px;
+    background-color: white;
+    padding: 8px;
+}
+.menu-connect>a {
+    color: var(--primary-color);
+}
+.menu-connect:hover {
+    background-color: var(--secondary-color);
+}
+@media only screen and (max-width: 960px) {
+    .header-title {
+        display: none;
+    }
+    .menu-home {
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .menu-home,.menu-about,.menu-code,.menu-connect {
+        font-size: 18px;
+    }
+    .menu-about,.menu-code,.menu-connect {
+        margin-left: 0.6rem;
+    }
 }
