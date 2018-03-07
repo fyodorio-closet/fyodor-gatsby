@@ -3,7 +3,6 @@ module.exports = {
     title: 'My Days Of Code',
     author: 'Fyodor Loenko'
   },
-  pathPrefix: `/my-days-of-code`,
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
