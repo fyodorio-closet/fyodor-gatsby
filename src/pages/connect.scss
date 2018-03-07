@@ -1,0 +1,12 @@
+.accounts {
+    list-style: none;
+    margin: 0;
+    .account {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .account-name {
+            margin-left: 0.5rem;
+        }
+    }
+}
