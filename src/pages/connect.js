@@ -4,10 +4,7 @@ import Helmet from 'react-helmet';
 https://github.com/FortAwesome/react-fontawesome */
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/fontawesome-free-solid'; 
-import { faTelegramPlane } from '@fortawesome/fontawesome-free-brands';
-import { faTwitter } from '@fortawesome/fontawesome-free-brands';
-import { faCodepen } from '@fortawesome/fontawesome-free-brands';
-import { faGithub } from '@fortawesome/fontawesome-free-brands';
+import { faTelegramPlane, faTwitter, faCodepen, faGithub, faStackOverflow } from '@fortawesome/fontawesome-free-brands';
 
 import './connect.scss';
 
@@ -47,6 +44,12 @@ const ConnectPage = () => (
           <FontAwesomeIcon icon={faCodepen} size={iconSize} />
         </a>
         <div className="account-name">@loenko</div>
+      </li>
+      <li className="account">
+        <a target="_blank" href="https://stackoverflow.com/users/6778546/fyodor-loenko">
+          <FontAwesomeIcon icon={faStackOverflow} size={iconSize} />
+        </a>
+        <div className="account-name">@6778546</div>
       </li>
     </ul>
     <br />
