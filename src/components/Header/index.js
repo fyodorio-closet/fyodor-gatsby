@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import './index.css';
+import './index.scss';
 
 const Header = () => (
   <div className="header">

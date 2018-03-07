@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import Link from 'gatsby-link';
 
-import './blog-post.css'; 
+import './blog-post.scss'; 
 
 export default function Template({
   data
@@ -10,7 +10,7 @@ export default function Template({
   const { markdownRemark: post } = data; 
   return (
     <div className="blog-post-container">
-      <Helmet title={`My Days Of Code - ${post.frontmatter.title}`} />
+      <Helmet title={`${post.frontmatter.title} - My Days Of Code`} />
       <div className="blog-post">
         <h1>{post.frontmatter.title}</h1>
         <div

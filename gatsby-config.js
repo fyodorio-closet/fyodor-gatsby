@@ -37,6 +37,12 @@ module.exports = {
           windows: false
         }
       }
+    },
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        precision: 8,
+      }
     }
   ],
 };
