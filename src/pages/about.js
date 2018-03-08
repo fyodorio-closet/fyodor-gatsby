@@ -10,7 +10,7 @@ const AboutPage = () => (
     <ul>
       <li>Semantic HTML and Web Components</li>
       <li>SASS for CSS preprocessing</li>
-      <li>Latest ECMAScript</li>
+      <li>Latest ECMAScript / TypeScript</li>
       <li>Webpack for module transpiling and bundling the sources</li>
       <li>Karma+Mocha+Chai+Sinon for Unit Testing</li>
       <li>ESLint for code checks</li>
@@ -23,6 +23,7 @@ const AboutPage = () => (
       <li>Codepen for experiments and Code Art</li>
       <li>Functional Programming as a preffered coding paradigm</li>
       <li>VSCode as an IDE</li>
+      <li>JAVA and IDEA when I get nostalgic about Object-Oriented Programming</li>
       <li>A pencil and a paper for design mockups</li>
     </ul>
     <p>I'm a passionate learner and try to get new knowledge with any opportunity. That's why I <a target="_blank" href="https://github.com/loenko/100-days-of-code/blob/master/log.md">participate in #100DaysOfCode challenge</a> and use this blog to record some related thoughts.</p>
