@@ -4,7 +4,7 @@ date: "2018-03-06T18:00:00.000Z"
 title: "The Great Gatsby Or DevOps Hero"
 ---
 
-This week I went out a little from my [declared priorities](http://loenko.ru/time-to-prioritize), though my Angular -> AngularJS project got off the ground both with designs and with the first code.
+This week I went out a little from my [declared priorities](http://loenko.ru/time-to-prioritize), though my AngularJS -> Angular project got off the ground both with designs and with the first code.
 
 I made a couple of iterations on designs for my personal site/blog and my Kaizen app which I'm going to code with AngularJS and then migrate to Angular for the sake of experience. Looks like I will really need it in my work in the near future. I like drawing mockups for my projects with simple pencil and a sheet of paper. I got used to it when I did my pens for [#DailyCSSImages](https://codepen.io/search/pens?q=%23dailycssimages&limit=all&type=type-pens), and now I use hand-drawn mockups and prototypes almost every time I make something with code. I prefer it over applications because it's faster, there's more freedom, and because I simply like to draw.
 

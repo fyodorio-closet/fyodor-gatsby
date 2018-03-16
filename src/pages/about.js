@@ -1,12 +1,14 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
+import './about.scss';
+
 const AboutPage = () => (
-  <div>
+  <div className="about-page">
     <Helmet title={`About - My Days Of Code`} />
     <h1>Who Am I?</h1>
     <p>My name is Fyodor. I'm a Software Developer. I use HTML, CSS and JavaScript to create web applications with a focus on simplicity, both in design and in implementation.</p>
-    <p>My tools of choice are</p>
+    <p>My tools of choice are:</p>
     <ul>
       <li>Semantic HTML and Web Components</li>
       <li>SASS for CSS preprocessing</li>
@@ -22,7 +24,8 @@ const AboutPage = () => (
       <li>Gatsby.js for building solid and simple web pages (e.g. this one)</li>
       <li>Codepen for experiments and Code Art</li>
       <li>Functional Programming as a preffered coding paradigm</li>
-      <li>VSCode as an IDE</li>
+      <li>WebStorm for severe mood</li>
+      <li>VSCode for sassy mood</li>
       <li>JAVA and IDEA when I get nostalgic about Object-Oriented Programming</li>
       <li>A pencil and a paper for design mockups</li>
     </ul>
