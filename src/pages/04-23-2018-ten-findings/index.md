@@ -1,6 +1,6 @@
 ---
 path: "/ten-findings"
-date: "2018-04-26T18:00:00.000Z"
+date: "2018-04-30T18:00:00.000Z"
 title: "Ten Findings In Hundred Days"
 ---
 
