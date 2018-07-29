@@ -28,10 +28,10 @@ const ConnectPage = () => (
         <div className="account-name">@loenko</div>
       </li>
       <li className="account">
-        <a target="_blank" href="https://twitter.com/fyodorloenko">
+        <a target="_blank" href="https://twitter.com/fyodorio">
           <FontAwesomeIcon icon={faTwitter} size={iconSize} />
         </a>
-        <div className="account-name">@fyodorloenko</div>
+        <div className="account-name">@fyodorio</div>
       </li>
       <li className="account">
         <a target="_blank" href="https://github.com/loenko">
