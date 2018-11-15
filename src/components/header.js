@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import './index.scss';
+import './header.scss';
 
 const Header = () => (
   <div className="header">
@@ -9,18 +9,16 @@ const Header = () => (
         <Link
           to="/"
           style={{
-            // color: 'white',
             textDecoration: 'none',
           }}
         >
-          My Days Of Code
+          Fyodor Loenko
         </Link>
       </h1>
       <h3 className="menu-home">
         <Link
           to="/"
           style={{
-            // color: 'white',
             textDecoration: 'none',
           }}
         >
@@ -31,7 +29,6 @@ const Header = () => (
         <Link
           to="/about"
           style={{
-            // color: 'white',
             textDecoration: 'none',
           }}
         >
@@ -42,7 +39,6 @@ const Header = () => (
         <Link
           to="/code"
           style={{
-            // color: 'white',
             textDecoration: 'none',
           }}
         >
@@ -53,7 +49,6 @@ const Header = () => (
         <Link
           to="/connect"
           style={{
-            // color: 'white',
             textDecoration: 'none',
           }}
         >
@@ -63,6 +58,6 @@ const Header = () => (
     </div>
     
   </div>
-)
+);
 
 export default Header

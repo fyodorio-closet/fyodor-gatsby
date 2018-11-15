@@ -14,12 +14,6 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: []
-      }
-    },
-    {
       resolve: `gatsby-plugin-favicon`,
       options: {
         logo: "./src/favicon.png",
