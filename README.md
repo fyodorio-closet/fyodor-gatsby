@@ -1,4 +1,4 @@
-# fyodor-io
+# fyodor-gatsby
 ### GatsbyJS based personal website
 
 #### Dependencies
